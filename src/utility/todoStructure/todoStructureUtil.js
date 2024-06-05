@@ -32,17 +32,17 @@ export function toDoStructure(title, description, dueDate, priority) {
 
   const delIcon = document.createElement("img");
   delIcon.classList.add("icon", "del-icon");
-  delIcon.setAttribute("src", "../src/icons/delete.svg");
+  delIcon.setAttribute("src", "../src/icons/delete.png");
   toDoIconsContainer.appendChild(delIcon);
 
   const editIcon = document.createElement("img");
   editIcon.classList.add("icon", "edit-icon");
-  editIcon.setAttribute("src", "../src/icons/edit.svg");
+  editIcon.setAttribute("src", "../src/icons/edit.png");
   toDoIconsContainer.appendChild(editIcon);
 
   const openIcon = document.createElement("img");
   openIcon.classList.add("icon", "open-icon");
-  openIcon.setAttribute("src", "../src/icons/open.svg");
+  openIcon.setAttribute("src", "../src/icons/open.png");
   toDoIconsContainer.appendChild(openIcon);
 
   card.appendChild(toDoIconsContainer);
